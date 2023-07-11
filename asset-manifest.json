@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lghnh-nft/static/css/main.bfaa1903.css",
-    "main.js": "/lghnh-nft/static/js/main.b9de9c74.js",
+    "main.js": "/lghnh-nft/static/js/main.89966d1d.js",
     "static/js/583.98aad056.chunk.js": "/lghnh-nft/static/js/583.98aad056.chunk.js",
     "static/js/27.4d6a611d.chunk.js": "/lghnh-nft/static/js/27.4d6a611d.chunk.js",
     "static/js/17.cf43b4a8.chunk.js": "/lghnh-nft/static/js/17.cf43b4a8.chunk.js",
@@ -92,6 +92,6 @@
   },
   "entrypoints": [
     "static/css/main.bfaa1903.css",
-    "static/js/main.b9de9c74.js"
+    "static/js/main.89966d1d.js"
   ]
 }
