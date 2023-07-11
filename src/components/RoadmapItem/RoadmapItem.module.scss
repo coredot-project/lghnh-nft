@@ -1,0 +1,101 @@
+.roadmapItem {
+  width: 301px;
+  height: 100%;
+  background-image: url("../../assets/images/roadmap-bg.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 30px;
+
+  > img {
+    margin-top: 106px;
+  }
+
+  > h6 {
+    font-family: "EB Garamond", serif;
+    font-size: 49px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  > p {
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.47;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    white-space: pre-line;
+  }
+
+  > span {
+    margin-top: 12px;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 15px;
+    line-height: 1.13;
+    text-align: center;
+    color: #666;
+  }
+
+  >.complete {
+    position: absolute;
+    width: 152px;
+    height: 87px;
+    bottom: 23px;
+    right: 0px;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/images/roadmap-bg.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0px 12px;
+
+    > img {
+      margin-top: 70px;
+      width: 77px;
+    }
+
+    > h6 {
+      margin-top: 6px;
+      font-size: 24.5px;
+      font-weight: 500;
+    }
+
+    > p {
+      margin-top: 0px;
+      font-size: 14px;
+      white-space: none;
+    }
+
+    > span {
+      font-size: 10px;
+    }
+
+    >.complete {
+      position: absolute;
+      width: 89px;
+      height: 52px;
+      bottom: 23px;
+      right: 0px;
+    }
+  }
+}

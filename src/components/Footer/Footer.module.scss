@@ -1,0 +1,117 @@
+.footerContainer {
+  background-color: #333333;
+  color: #aaaaaa;
+  padding: 56px;
+
+  .linkContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .termContainer {
+      display: flex;
+      gap: 17px;
+
+      .item {
+        font-size: 21px;
+        font-weight: 300;
+        border: solid 1px #aaa;
+        padding: 10px 25px;
+      }
+    }
+
+    .snsContainer {
+      display: flex;
+      gap: 52px;
+
+      > .item {
+        cursor: pointer;
+
+        > img {
+          height: 24px;
+        }
+      }
+    }
+  }
+
+  .incContainer {
+    color: #fff;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 25px;
+    margin-top: 22px;
+    margin-bottom: 14px;
+  }
+
+  .bottomContainer {
+    display: flex;
+    align-items: bottom;
+    justify-content: space-between;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.38;
+
+    .copyright {
+      align-self: flex-end;
+    }
+  }
+
+  .textContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 768px) {
+    padding: 36px 24px;
+
+    .linkContainer {
+      flex-direction: column;
+
+      .snsContainer {
+        display: flex;
+        align-items: center;
+        overflow: auto;
+        margin-top: 32px;
+
+        > .item {
+          display: flex;
+          align-items: center;
+
+          > img {
+            height: 24px;
+          }
+        }
+      }
+    }
+
+    .termContainer {
+      flex-direction: column;
+
+      .item {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+      }
+    }
+
+    .bottomContainer {
+      flex-direction: column;
+      font-size: 14px;
+
+      .copyright {
+        align-self: flex-start;
+        margin-top: 32px;
+      }
+    }
+
+    .textContainer {
+      flex-direction: column;
+    }
+  }
+}

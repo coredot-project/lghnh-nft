@@ -1,0 +1,130 @@
+.myBenefitView {
+  .titleContainer {
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 33px;
+    color: #010101;
+    margin-top: 110px;
+    margin-bottom: 24px;
+
+    > h6 {
+      font-size: 33px;
+      font-weight: normal;
+      font-stretch: normal;
+      color: #010101;
+      margin: 0px;
+    }
+  }
+
+  .topDivider {
+    border: none;
+    height: 2px;
+    background-color: #bebebe;
+    margin-top: 24px;
+    margin-bottom: 37px;
+  }
+
+  .bottomDivider {
+    border: none;
+    height: 2px;
+    background-color: #bebebe;
+    margin-top: 24px;
+    margin-bottom: 37px;
+  }
+
+  .couponHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > .title {
+      font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+        Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+        "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      margin: 0;
+      margin-left: 12px;
+      margin-bottom: 14px;
+    }
+  }
+
+  .cellText {
+    display: flex;
+    justify-content: center;
+  }
+
+  .couponId {
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .couponName {
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .couponDate {
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 17px;
+    color: #333;
+  }
+
+  .couponNumberContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .couponNumber {
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #d70029;
+    margin-right: 14px;
+  }
+
+  .tableButton {
+    cursor: pointer;
+    border: solid 1px #333;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 9px 15px;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 15px;
+
+    &:hover {
+      color: #fff;
+      background-color: #333;
+    }
+
+    &.on {
+      color: #fff;
+      background-color: #333;
+    }
+  }
+}

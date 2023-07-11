@@ -1,0 +1,105 @@
+.myNftView {
+  padding-top: 113px;
+  padding-bottom: 122px;
+
+  .titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+      Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", sans-serif;
+    font-size: 33px;
+    color: #010101;
+
+    @media (max-width: 767px) {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .search-container {
+      display: flex;
+
+      > .filter-list {
+        max-width: 225px;
+        width: 100%;
+        margin-right: 17px;
+        > .my-nft-button {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          color: #fff;
+          font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+            Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+            "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+            "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+          font-size: 17px;
+          background-color: #333;
+          height: 38px;
+          max-width: 225px;
+          width: 100%;
+          border: none;
+        }
+      }
+
+      > .search-input {
+        border: solid 1px #666;
+        background-color: #fff;
+        width: 262px;
+        height: 38px;
+        padding: 0px 12px;
+      }
+    }
+
+    > .title {
+      font-size: 33px;
+      font-weight: normal;
+      color: #010101;
+      margin: 0px;
+
+      @media (max-width: 767px) {
+        font-size: 29px;
+        font-weight: 600;
+        font-style: normal;
+      }
+    }
+  }
+
+  .gridContainer {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+
+    @media (max-width: 767px) {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  .topDivider {
+    border: 0;
+    height: 3px;
+    background-color: #bebebe;
+    margin-top: 23px;
+    margin-bottom: 76px;
+
+    @media (max-width: 767px) {
+      margin-top: 19px;
+      margin-bottom: 19px;
+    }
+  }
+
+  .bottomDivider {
+    border: 0;
+    height: 3px;
+    background-color: #bebebe;
+    margin-top: 76px;
+
+    @media (max-width: 767px) {
+      margin-top: 35px;
+    }
+  }
+}
