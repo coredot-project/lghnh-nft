@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5cee455.css",
-    "main.js": "/static/js/main.d28bc1b7.js",
-    "static/js/583.80efafbc.chunk.js": "/static/js/583.80efafbc.chunk.js",
-    "static/js/787.e793dda2.chunk.js": "/static/js/787.e793dda2.chunk.js",
-    "static/js/894.cbb26478.chunk.js": "/static/js/894.cbb26478.chunk.js",
+    "main.css": "/static/css/main.bfaa1903.css",
+    "main.js": "/static/js/main.763664ee.js",
+    "static/js/583.98aad056.chunk.js": "/static/js/583.98aad056.chunk.js",
+    "static/js/27.4d6a611d.chunk.js": "/static/js/27.4d6a611d.chunk.js",
+    "static/js/17.cf43b4a8.chunk.js": "/static/js/17.cf43b4a8.chunk.js",
     "static/media/EP.6_6.png": "/static/media/EP.6_6.143b6b9925d839a09808.png",
     "static/media/EP.6_4.png": "/static/media/EP.6_4.9843de8f82059ea6f1be.png",
     "static/media/EP.9_3.png": "/static/media/EP.9_3.ce934c56dd77a1ef1f43.png",
@@ -88,14 +88,10 @@
     "static/media/roadmap4.png": "/static/media/roadmap4.62c90044a00231a9bd84.png",
     "static/media/roadmap3.png": "/static/media/roadmap3.45300b140467600196fb.png",
     "static/media/invalid-name.png": "/static/media/invalid-name.da9f70a7c315185b4f52.png",
-    "index.html": "/index.html",
-    "main.a5cee455.css.map": "/static/css/main.a5cee455.css.map",
-    "main.d28bc1b7.js.map": "/static/js/main.d28bc1b7.js.map",
-    "787.e793dda2.chunk.js.map": "/static/js/787.e793dda2.chunk.js.map",
-    "894.cbb26478.chunk.js.map": "/static/js/894.cbb26478.chunk.js.map"
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.a5cee455.css",
-    "static/js/main.d28bc1b7.js"
+    "static/css/main.bfaa1903.css",
+    "static/js/main.763664ee.js"
   ]
 }
