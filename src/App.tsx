@@ -10,7 +10,7 @@ import NftDetail from "./views/NftDetail";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <CssBaseline />
       <Switch>
         <Route exact path="/" component={Home} />

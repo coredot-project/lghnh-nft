@@ -2,7 +2,7 @@
   "name": "dr.groot_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://drgroot.dogesound.club",
+  "homepage": "https://www.drgroot.xyz",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
@@ -47,7 +47,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://x-access-token:${process.env.REACT_APP_GH_TOKEN}@github.com/DSC-LABEL-CO-LTD/dr.groot_app.git",
+    "deploy": "gh-pages -d build -r https://x-access-token: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@github.com/coredot-project/lghnh-nft.git",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
