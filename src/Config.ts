@@ -1,8 +1,7 @@
 export default {
 
     chainId: 8217,
-    // apiURL: "https://localhost:8888",
-    apiURL: "https://coredot.iptime.org:8888",
+    apiURL: "https://api.drgroot.xyz:8888",
 
     tossClientKey: "live_ck_ADpexMgkW360Wja54dwrGbR5ozO0",
     whitelistKRW: 25000,
