@@ -2,10 +2,11 @@
   background-color: #333333;
   color: #aaaaaa;
   padding: 56px;
-
+  
   .linkContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    padding-right: 50px;
 
     .termContainer {
       display: flex;
